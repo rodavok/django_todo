@@ -8,3 +8,6 @@ class TodoAdmin(admin.ModelAdmin):
         "title",
         "body",
     )
+
+
+admin.site.register(Todo, TodoAdmin)
